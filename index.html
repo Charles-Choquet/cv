@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <h2>Menu</h2>
+        <ul>
+            <li onclick="closeAll()">
+                <a href="#">Accueil</a>
+            </li>
+            <li onclick="slide(competence,formation,experience,realisation)">
+                <a href="#">Compétences</a>
+            </li>
+            <li onclick="slide(formation,competence,experience,realisation)">
+                <a href="#">Formations</a>
+            </li>
+            <li onclick="slide(experience,competence,formation,realisation)">
+                <a href="#">Experiences</a>
+            </li>
+            <li onclick="slide(realisation,competence,formation,experience)">
+                <a href="#">Réalisations</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="competence"></div>
+    <div id="formation"></div>
+    <div id="experience"></div>
+    <div id="realisation"></div>
+    <div class="main">
+        <h1>Développeur web/web mobile</h1>
+        <div class="info">
+            <h2>Choquet Charles</h2>
+            <p>Contact</p>
+            <p>06 77 04 96 00</p>
+            <p>chqtcharles@gmail.com</p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
